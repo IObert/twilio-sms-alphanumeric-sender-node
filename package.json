@@ -1,0 +1,19 @@
+{
+  "name": "send-sms-with-twilio-alphanumeric-sender-node",
+  "version": "1.0.0",
+  "description": "Sample Code for a Blog Post",
+  "main": "send-alpha.js",
+  "scripts": {
+    "start": "node send-alpha.js"
+  },
+  "keywords": [
+    "twilio",
+    "alpha-sender"
+  ],
+  "author": "Marius Obert",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "twilio": "^3.84.1"
+  }
+}
