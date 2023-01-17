@@ -3,9 +3,9 @@ const client = require("twilio")();
 
 client.messages
     .create({
-        body: "This message comes from an alphanumeric sender ID!",
-        to: "+123456789", //TODO enter your phone number here
-        from: "MG00000000" //TODO enter the SID of the Messaging service you saved earlier
+        body: "This message comes from an Alphanumeric Sender ID!",
+        to: "<YOUR PHONE NUMBER>", //TODO enter your phone number here
+        from: "<Messaging Service SID>" // TODO enter the SID of the Messaging service you saved earlier
     })
     .then(console.log)
     .catch(console.error)
