@@ -10,6 +10,10 @@
     "twilio",
     "alpha-sender"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IObert/twilio-sms-alphanumeric-sender-node"
+  },
   "author": "Marius Obert",
   "license": "Apache-2.0",
   "dependencies": {
