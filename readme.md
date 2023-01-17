@@ -21,7 +21,7 @@ This repository accompanies [this blog post](https://www.twilio.com/blog/send-sm
     cd twilio-sms-alphanumeric-sender-node
     ```
 
-2. Create a new `.env` file. Here we're going to store the credentials we need to make calls to the API. You can find them in the [admin console](https://www.twilio.com/console). Insert them in the placeholders below and copy the lines in the file.
+2. Create a new `.env` file. Here you're going to store the credentials you need to make calls to the Twilio API; your Account SID and Auth Token. You can find them in the [Twilio Console](https://www.twilio.com/console). Copy the lines below into .env and then paste the values of the two Twilio credentials in place of the two placeholders.
     ```sh
     TWILIO_ACCOUNT_SID=YOUR_ACCOUNT_SID 
     TWILIO_AUTH_TOKEN=YOUR_AUTH_TOKEN
